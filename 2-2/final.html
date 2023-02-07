@@ -13,9 +13,9 @@
 <body>
     <div id="card">
         <div id="card-front">
-            <!-- <div class="logo-itp">
+            <div class="logo-itp">
                 <img src="/2-2/assets/itp_logo.png" alt="itp logo" srcset="">
-            </div> -->
+            </div>
             <div id="title">
                 <div class="logo-nyu">
                     <img src="/2-2/assets/nyu_logo.png" alt="nyu logo" srcset="">
@@ -77,6 +77,62 @@
         max-height: 300px;
         border: 1px solid black;
         overflow: hidden;
+    }
+
+    #card-front{
+        /* background-image: url('/2-2/business\ card.png');
+        background-size: contain; */
+        padding-left: 58.8px;
+        padding-top: 45.6px;
+    }
+
+    #title>div {
+        display: inline-block;
+    }
+
+    #title>div:last-child{
+        border-left: solid 2px black;
+        margin-left: 10px;
+        padding-left: 12px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .logo-nyu img{
+        height: 36px;
+    }
+
+    #content{
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    #content>div{
+        margin-bottom: 12px;
+    }
+
+    #content>div:last-child{
+        margin-bottom: 0px;
+    }
+
+    .name>div{
+        font-weight: bold;
+    }
+
+    .dept>div:first-child{
+        font-weight: bold;
+    }
+
+    .logo-itp{
+        position: absolute;
+        right: 0;
+        bottom: -20%;
+    }
+    .logo-itp>img{
+        width: 265px;
+        filter: grayscale(1);
+        opacity: 0.15;
     }
 </style>
 
